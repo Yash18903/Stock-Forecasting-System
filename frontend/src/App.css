@@ -1,0 +1,12 @@
+/* ===== App Shell ===== */
+.App {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-0);
+}
+
+.App>*:not(header):not(footer) {
+  flex: 1;
+}

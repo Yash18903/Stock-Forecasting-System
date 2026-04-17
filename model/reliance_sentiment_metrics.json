@@ -1,0 +1,9 @@
+{
+  "MAE": 35.0785,
+  "RMSE": 47.3294,
+  "R2": 0.7832,
+  "Direction_Accuracy_%": 53.06,
+  "Train_Samples": 1962,
+  "Test_Samples": 491,
+  "Trained_With_Sentiment": true
+}

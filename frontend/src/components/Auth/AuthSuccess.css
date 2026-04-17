@@ -1,0 +1,44 @@
+/* ===== AUTH SUCCESS — Enterprise ===== */
+.auth-success-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: var(--surface-0);
+}
+
+.auth-success-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 440px;
+  padding: 44px 32px;
+  text-align: center;
+  box-shadow: var(--shadow-xl);
+  animation: fadeInUp 0.45s var(--ease-out);
+}
+
+.auth-success-card h2 {
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-family: var(--font-display);
+}
+
+.auth-success-card p {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  font-size: 0.92rem;
+}
+
+.auth-success-card .loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 2.5px solid var(--border-subtle);
+  border-top-color: var(--brand);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin: 0 auto;
+}

@@ -1,0 +1,20 @@
+/* Register inherits all styles from Login.css via shared class names */
+.resend-otp {
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  font-size: 0.88rem;
+}
+
+.resend-otp button {
+  background: none;
+  border: none;
+  color: var(--brand-light);
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+}
+
+.resend-otp button:hover {
+  color: var(--accent);
+}

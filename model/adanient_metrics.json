@@ -1,0 +1,33 @@
+{
+  "MAE": 51.678,
+  "RMSE": 83.6121,
+  "R2": 0.9482,
+  "Direction_Accuracy_%": 50.1,
+  "Training_Algorithm": "Advanced Sector+Sentiment XGBoost",
+  "Features_Count": 23,
+  "features_used": [
+    "Close",
+    "High",
+    "Low",
+    "Open",
+    "Volume",
+    "sector_close",
+    "nifty_close",
+    "sentiment",
+    "rsi",
+    "ema",
+    "macd",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_4",
+    "lag_5",
+    "lag_6",
+    "lag_7",
+    "lag_8",
+    "lag_9",
+    "lag_10",
+    "day_of_week",
+    "month"
+  ]
+}
